@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mixed messages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's play with words</h1>
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" placeholder="Your name">
+        <button onclick="displayMessage()">Submit</button>
+        <p id="greeting"></p>
+    </div>
+    <div class="container">
+        <h1>Mixing it up!</h1>
+        <div class="slot-machine">
+          <div class="slot" id="slot-1"></div>
+          <div class="slot" id="slot-2"></div>
+          <div class="slot" id="slot-3"></div>
+          <div class="slot" id="slot-4"></div>
+          <div class="slot" id="slot-5"></div>
+          
+        </div>
+        <button onclick="generateSentence()">Generate Sentence</button>
+        <p id="sentence"></p>
+        <p id="question"></p>
+    </div>
+    
+<script src="index.js"></script>
+</body>
+</html>
